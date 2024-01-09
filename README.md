@@ -21,5 +21,6 @@
 ## UPDATE 3: 
 7. GIF to Video with sound
 8. Confetti
+9. 
 ![image](https://github.com/aniketsinha2002/Thala-For-A-Reason/assets/97850511/6f60a085-3705-44e2-9135-74caad618c88)
 
