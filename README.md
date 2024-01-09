@@ -14,5 +14,12 @@
 
 ## UPDATE 2: 
 7. Improved UI
+8. PIC to GIF
    
 ![image](https://github.com/aniketsinha2002/Thala-For-A-Reason/assets/97850511/2ebc4f3e-f03e-4f9e-89b5-dfad0b0ace52)
+
+## UPDATE 3: 
+7. GIF to Video with sound
+8. Confetti
+![image](https://github.com/aniketsinha2002/Thala-For-A-Reason/assets/97850511/6f60a085-3705-44e2-9135-74caad618c88)
+
