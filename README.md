@@ -12,3 +12,7 @@
    
 ![image](https://github.com/aniketsinha2002/Thala-For-A-Reason/assets/97850511/dfe4777f-3716-471c-9f12-96ee6a0cdbab)
 
+## UPDATE 2: 
+7. Improved UI
+   
+![image](https://github.com/aniketsinha2002/Thala-For-A-Reason/assets/97850511/2ebc4f3e-f03e-4f9e-89b5-dfad0b0ace52)
