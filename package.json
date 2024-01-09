@@ -2,7 +2,6 @@
   "name": "thala",
   "version": "1.0.0",
   "description": "this is fun website as regard to meme thalaa for a reason",
-  
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -12,12 +11,15 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.11.0",
+    "prettier": "3.1.1",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "countapi-js": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-player": "^2.14.1",
+    "react-share": "^5.0.3",
     "reactjs-popup": "^2.0.6"
   }
 }
