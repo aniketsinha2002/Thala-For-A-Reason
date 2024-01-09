@@ -6,6 +6,7 @@ body {
     text-align: center;
     margin: 10px;
     padding: 20px;
+    color: black;
 }
 
 .container {
@@ -39,7 +40,7 @@ img {
 
 .thala-img{
     padding: 10px;
-    
+    width: 45%;
 }
 
 #inputBox {
@@ -49,4 +50,23 @@ img {
 
 #submitButton {
     cursor: pointer;
+}
+
+.share-component {
+  display: flex;
+  gap: 10px; /* Adjust the gap according to your preference */
+}
+
+.share-component button {
+  cursor: pointer;
+}
+
+.counter{
+    display: flex;
+    margin: 20px;
+}
+
+.counter img{
+    padding-left: 30px;
+  padding-top: 20px;
 }
