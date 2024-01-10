@@ -1,12 +1,11 @@
 /* CSS file */
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri', sans-serif;
     background-color: #f4f4f4;
     text-align: center;
-    margin: 10px;
-    padding: 20px;
-    color: black;
+    padding: 10px;
+    color: rgb(23, 23, 23);
 }
 
 .container {
@@ -18,12 +17,12 @@ body {
     
 }
 
-img {
+.thala-img img {
     /* Your styles for the img tag go here */
     max-width: 100%; /* Example: Make sure images don't exceed their container width */
     height: auto;    /* Maintain aspect ratio */
     border-radius: 10px; /* Example: Add rounded corners to the image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example: Add a subtle box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Example: Add a subtle box shadow */
 }
 
 .thala-search{
@@ -32,29 +31,80 @@ img {
 }
 .thala-message {
     display: flex;
+    font-family: cursive;
     flex-direction: column;
     align-items: center;
     margin: 10px 0;
     padding: 10px;
+    font-weight: bolder;
 }
 
-.thala-img{
-    padding: 10px;
-    width: 45%;
+.thala-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 0;
+    width: 100%;
+    pointer-events: none;
 }
+
+.thala-video {
+    width: 100%;
+    height: 100%;
+}
+
+/* Style the iframe */
+.thala-video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Media query for screens smaller than 768px */
+/* @media screen and (max-width: 768px) {
+    .thala-img {
+        width: 100%; 
+        height: none;
+        padding-left: 200;
+        pointer-events: none;
+    }
+} */
+
+/* Media query for screens smaller than 480px */
+/* @media screen and (max-width: 480px) {
+    .thala-img {
+        padding-right: 10px; 
+        padding-left: 200;
+        pointer-events: none;
+    }
+} */
 
 #inputBox {
-    padding: 10px;
-    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #95919139;
+    outline: none;
+    text-align: center;
 }
 
-#submitButton {
+#submitButton, #styleButton {
+    background: rgb(1, 81, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12);
+    color: #fff;
     cursor: pointer;
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
 }
 
 .share-component {
   display: flex;
-  gap: 10px; /* Adjust the gap according to your preference */
+  gap: 12px; /* Adjust the gap according to your preference */  
 }
 
 .share-component button {
@@ -63,10 +113,11 @@ img {
 
 .counter{
     display: flex;
-    margin: 20px;
+    margin: none;
+    padding: none;
 }
 
 .counter img{
     padding-left: 30px;
-  padding-top: 20px;
+    padding-top: 20px;
 }
